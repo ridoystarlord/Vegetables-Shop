@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vegetables Shop</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/logo.png"
+              alt=""
+              class="d-inline-block align-text-center"
+            />
+            ভাই কিনবেন না?</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Regular Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Top Sell Products</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header END -->
+    <!-- Main Start -->
+    <main>
+      <!-- Top Banner Start -->
+      <section class="container mt-3">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide bg-primary p-5"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                  <h1 class="text-white">লাল মরিচ</h1>
+                  <p class="text-white">তাজা লাল কাচা মরিচ, ঝাল বেশি</p>
+                  <h2 class="text-white">৳ ৬০</h2>
+                  <button type="button" class="btn btn-warning mb-md-3 mb-3">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="col-lg-6">
+                  <img
+                    src="images/top sell products/chili.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                  <h1 class="text-white">পিয়াজ</h1>
+                  <p class="text-white">তাজা পিয়াজ, কালকেই আসছে ভাই</p>
+                  <h2 class="text-white">৳ ১০০</h2>
+                  <button type="button" class="btn btn-warning mb-md-3 mb-3">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="col-lg-6">
+                  <img
+                    src="images/top sell products/onion.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                  <h1 class="text-white">আলু</h1>
+                  <p class="text-white">
+                    ভাবি তো অবশ্যই নিতে বলছে। এক কেজি নিয়েই নেন?
+                  </p>
+                  <h2 class="text-white">৳ ৩০</h2>
+                  <button type="button" class="btn btn-warning mb-md-3 mb-3">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="col-lg-6">
+                  <img
+                    src="images/top sell products/potato.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span
+              class="
+                carousel-control-prev-icon
+                position-absolute
+                top-0
+                start-0
+                mt-3
+                ms-3
+                bg-danger
+              "
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span
+              class="
+                carousel-control-next-icon
+                position-absolute
+                top-0
+                end-0
+                mt-3
+                me-3
+                bg-danger
+              "
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Top Banner END -->
+
+      <!-- All Vegetables Start -->
+      <section class="container my-3">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 bg-body rounded">
+              <img
+                src="images/regular products/carrot.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">গাজর</h5>
+                <p class="card-text">বাসায় নুডুলস থাকলে নিয়েই নেন</p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-danger mb-md-3 mb-3">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 bg-body rounded">
+              <img
+                src="images/regular products/cauliflower.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ফুল কপি</h5>
+                <p class="card-text">শীতের সময় না নিলে কি চলে?</p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-danger mb-md-3 mb-3">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 bg-body rounded">
+              <img
+                src="images/regular products/corn.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ভুট্টা</h5>
+                <p class="card-text">সিনেমা দেখার সময় তো লাগবেই</p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-danger mb-md-3 mb-3">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 bg-body rounded">
+              <img
+                src="images/regular products/cucumber.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">শশা</h5>
+                <p class="card-text">মুড়ি বানাতে কিন্তু লাগবে</p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-danger mb-md-3 mb-3">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 bg-body rounded">
+              <img
+                src="images/regular products/eggplant.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">বেগুন</h5>
+                <p class="card-text">
+                  সকাল বেলা গরম ভাত বেগুন ভাজি কিন্তু খারাপ হবে না
+                </p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-danger mb-md-3 mb-3">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg p-3 bg-body rounded">
+              <img
+                src="images/regular products/tomato.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">টমেটো</h5>
+                <p class="card-text">
+                  তরকারি একটু টক মিষ্টি ঝাল হলে কিন্তু খারাপ হয় না
+                </p>
+              </div>
+              <div>
+                <button type="button" class="btn btn-danger mb-md-3 mb-3">
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- All Vegetables END -->
+
+      <!-- Buy Process Start -->
+      <section class="container my-3">
+        <h2 class="mb-3">কিভাবে কিনবেন?</h2>
+        <div class="d-lg-flex">
+          <div class="card me-lg-3 mb-md-3 mb-sm-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="images/delivery/select.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">কি কি নিবেন বাছাই করুন?</h5>
+                  <p class="card-text">
+                    ভাবি যে লিষ্ট টা পকেটে গুজে দিছে ঐটা বার করে একটা একটা করে
+                    মিলিয়ে বাজার করুন, ঠিকঠাক না হলে কপালে কি আছে জানেনই তো
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card me-lg-3 mb-md-3 mb-sm-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="images/delivery/pay.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">টাকা পরিশোধ করুন</h5>
+                  <p class="card-text">
+                    একটু বেশি বাজার করে ফেলেন নাই তো, আশা করছি কমই করছেন। যদিও
+                    বা ভাবির হিসেবে হয় নাই তবুও
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-md-3 mb-sm-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="images/delivery/carrier.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">জিনিস বুঝে নিন</h5>
+                  <p class="card-text">
+                    কষ্ট করে বাজার করলেন, আবার পকেট থাকে টাকাও খসা গেল, তাহলে
+                    এইবার ঠিক মতো ভাবির দেওয়া লিষ্ট মতো জিনিস গুনে নিন। নইলে
+                    কিন্তু কপালে শনি আছে।
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Buy Process END -->
+    </main>
+    <!-- Main END -->
+    <!-- Footer Start -->
+    <footer>
+      <p class="text-center">© All rights reserved. vegetables Shop 2021</p>
+    </footer>
+    <!-- Footer END -->
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
